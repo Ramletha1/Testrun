@@ -1,6 +1,6 @@
 DEPS= sort
-compile: main2.cpp 
-	 g++ main2.cpp -o $(DEPS)
+compile: main.cpp 
+	 g++ main.cpp -o $(DEPS)
 
 run: $(DEPS)
 	 ./$(DEPS)  $(var)
