@@ -1,4 +1,4 @@
-DEPS= sort
+DEPS = main
 compile: main.cpp 
 	 g++ main.cpp -o $(DEPS)
 
